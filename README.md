@@ -53,7 +53,7 @@ python train.py \
 ```
 You can also use our simple tool for sweeps and multiseed training (same can be done with wandb sweep):
 ```commandline
-python benchmark.py \
+python sweep.py \
     --command "python train.py" \
     --configs "configs/edac/*" \
     --num_seeds 4 \
