@@ -1,0 +1,8 @@
+.idea
+**/__pycache__
+wandb
+.vscode
+notebooks/data/*
+**/*.csv
+**/.DS_Store
+**/.ipynb_checkpoints

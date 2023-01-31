@@ -1,0 +1,13 @@
+project: "LB-SAC"
+group: "sac-halfcheetah-edac-init-batch-scaling"
+name: "sac-n-10k"
+num_critics: 5
+batch_size: 10000
+actor_lr: 0.0018
+critic_lr: 0.0018
+alpha_lr: 0.0018
+num_epochs: 400
+critic_use_layernorm: true
+dataset_name: "halfcheetah-medium-v2"
+edac_init: true
+edac_style_critic_loss: true

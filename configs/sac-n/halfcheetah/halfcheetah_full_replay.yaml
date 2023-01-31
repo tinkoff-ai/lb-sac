@@ -1,0 +1,8 @@
+project: "LB-SAC"
+group: "sac-n-halfcheetah-full-replay-v2-multiseed-v0"
+name: "sac-n"
+num_critics: 10
+num_epochs: 3000
+dataset_name: "halfcheetah-full-replay-v2"
+edac_init: true
+edac_style_critic_loss: true

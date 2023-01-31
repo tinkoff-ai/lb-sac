@@ -1,0 +1,9 @@
+project: "LB-SAC"
+group: "edac-ant-medium-v2-sweep-v0"
+name: "edac"
+dataset_name: "ant-medium-v2"
+num_critics: 100
+eta: 5.0
+num_epochs: 1000
+edac_init: true
+edac_style_critic_loss: true

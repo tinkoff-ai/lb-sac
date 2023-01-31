@@ -1,0 +1,10 @@
+project: "LB-SAC"
+group: "lb-sac-walker2d-medium-v2-multiseed-v0"
+name: "lb-sac"
+dataset_name: "walker2d-medium-v2"
+num_critics: 10
+batch_size: 10000
+num_epochs: 350
+actor_lr: 0.0018
+critic_lr: 0.0018
+alpha_lr: 0.0018

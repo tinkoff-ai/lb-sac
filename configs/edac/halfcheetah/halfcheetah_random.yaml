@@ -1,0 +1,9 @@
+project: "LB-SAC"
+group: "edac-halfcheetah-random-v2-multiseed-v0"
+name: "edac"
+num_critics: 10
+eta: 0.0
+num_epochs: 3000
+dataset_name: "halfcheetah-random-v2"
+edac_init: true
+edac_style_critic_loss: true

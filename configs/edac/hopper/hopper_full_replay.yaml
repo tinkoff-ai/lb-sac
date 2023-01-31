@@ -1,0 +1,9 @@
+project: "LB-SAC"
+group: "edac-hopper-full-replay-v2-multiseed-v0"
+name: "edac"
+num_critics: 50
+eta: 1.0
+num_epochs: 3000
+dataset_name: "hopper-full-replay-v2"
+edac_init: true
+edac_style_critic_loss: true
