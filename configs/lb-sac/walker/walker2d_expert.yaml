@@ -8,3 +8,4 @@ actor_lr: 0.0018
 critic_lr: 0.0018
 alpha_lr: 0.0018
 num_epochs: 350
+edac_init: true
